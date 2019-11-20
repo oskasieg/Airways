@@ -1,0 +1,55 @@
+Możliwosci strony:
+1) REJESTRACJA:
+	Skrypt sprawdza:
+	a) czy podany login istnieje,
+	b) czy hasła są takie same,
+	c) czy format mail i nr tel sie zgadza.
+
+2) LOGOWANIE:
+	Odkrywa dotychczas niewidoczne elementy dla uzytkownika. Chodzi tutaj o loty.
+	Możliwość przejścia do panelu konta. W zaleznosci od typu konta, sa dostepne 
+	rozne mozliwosci.
+	
+	Klient:
+		Przegladanie zakupionych lotow (dodanie opinii, anulowanie lotu),
+		Zmiana swoich danych, w tym rozwiniety system zmiany hasla z zabezpieczeniem,
+		System obslugujacy karte klienta: klient najpierw musi dodac swoja karte,
+		nastepnie doladowac ja pieniedzmi, a dopiero wtedy moze wykonywac transakcje
+	
+	Przewoznik:
+		Swieze konto przewoznika, aby moglo funkcjonowc musi zostac zarejestrowane
+		(wypelnianie niezbednych danych) , a dopiero pozniej moze wykonywac operacje.
+		Zmiana danych.
+		Przeglądanie samolotów - dodanie lub usuniecie(mozliwe tylko wtedy gdy samolot nie jest 
+		podpiety pod zaden lot)
+		Przegladanie pilotw - tutaj sprawa wyglada tak samo.
+		Przegladanie lotow - dodawanie, edycja lub usuwanie. Edytowac i usuwac mozna tylko
+		gdy lot nie zostal jeszcze zatwierdzony.
+		Gdy dodajemy lot automatycznie aktualizuja sie statystyki samolotow i pilotow. Tak samo gdy
+		go usuwamy.
+		Dodawanie lotu - program sprawdza czy 'start' i 'cel' sa odpowiednie, tak samo pilot i samolot
+		musza byc dostepni w naszej firmie, aby dodac lot. Przyciski umozliwiajace przejscie do panelu
+		pilotow i samolotow.
+		
+	Admin:
+		Panel uzytkownika:
+			Mozliwy przeglad i zmiana informacji o sobie.
+		Panel Admina:
+			Przegladanie lotow - akceptowanie lub odrzucanie oczekujacych lotow. Przycisk odsylajacy
+			do wszystkich lotow (sortowane po dacie).
+			Uzytkownicy - zatwierdzanie kont, odrzucanie.
+			Przewoznicy - tworzenie konta przewoznika, dopiero wtedy on ma dostep do logowania. Mozna
+			tez usuwac przewoznikow, o ile nie przejeli juz jakiegos lotu.
+			
+3) MENU GLOWNE:
+	Na ekranie glownym wyswietlaja sie losowe opinie.
+	Zakladka LOTY:
+		W zaleznosci od wybranej opcji wyswietlaja sie loty danego typu.
+		Wbudowany filtr lotow.
+		
+		Przewoznik - moze tylko przegladac.
+		Administrator - tak samo.
+		Klient - moze dokonac zakupu.
+	
+				
+			

@@ -1,0 +1,300 @@
+body {
+	background-color: rgb(150, 195, 239);
+}
+
+#menu {
+	height: 70%;
+	width: 15%;
+	float: left;
+	margin-top: 5%;
+	box-shadow: 15px 15px 15px gray ;
+	position: absolute;
+	margin-left: 7%;
+	background-color: white;
+}
+
+#main{
+	height: 70%;
+	width: 70%;
+	background-color: silver;
+	margin-left: 22%;
+	margin-right: 22%;
+	margin-top: 5%;
+	float: left;
+	box-shadow: 15px 15px 15px gray ;
+	position: absolute;
+	padding: 0%;
+}
+
+#logo{
+	height: 25%;
+	width: 100%;
+	background-color: white;
+}
+
+#logo a {
+	font-size: 330%;
+	text-shadow: 3px 2px gray;
+	color: black;
+}
+
+#panel {
+	width: 100%;
+	height: 75%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#panel th {
+	padding: 0.5%;
+}
+
+#panel2 {
+	width: 100%;
+	height: 75%;
+}
+
+/*druga kolumna w tabeli*/
+.a2 {
+	color: black;
+}
+
+
+/*pierwsza kolumna w tabeli*/
+.a3 {
+font-weight: bold;
+	color: navy;
+	padding: 2px;
+}
+
+/*informacje, np czy edytowano lot*/
+.a4 {
+	text-align: center;
+	font-size: 3vh;
+	text-shadow: 1px 1px gray;
+	color: green;
+}
+
+/*informacje o sprzecznosciach*/
+.a5 {
+	text-align: center;
+	font-size: 3vh;
+	text-shadow: 1px 1px gray;
+	color: red;
+}
+}
+
+.edit {
+	font-size: 2.5vh;
+}
+
+#panel a > b {
+	color: black;
+}
+
+.textarea {
+	text-align: center;
+}
+
+.opinia {
+	width: 50%;
+	height: 60%;
+	margin-left: 25%;
+	margin-top: 3%;
+	font-size: 2vh;
+}
+
+.table_img {
+	width: 40%;
+}
+
+table {
+	width: 50%;
+	margin-left: 1%;
+	margin-top: 5%;
+}
+
+
+.table_shows {
+	width: 98%;
+	border: 3px solid black;
+	vertical-align: center;
+}
+
+.table_edit {
+	margin-left: 15%;
+	width: 70%;
+	border-collapse: collapse;
+	border: solid;
+}
+
+.table_content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border-collapse: seperate;
+    border-spacing:5px 15px; /* dziala */
+}
+
+
+img {
+	position: relative;
+	max-width: 100%;
+}
+
+.button {
+	margin: 1%, 1%;
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+	margin: 4%;
+	max-width: 92%;
+}
+
+.button:hover {
+	background-color: blue;
+}
+
+.button2 {
+	margin: 1%, 1%;
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.button2:hover {
+	background-color: red;
+}
+
+.button3 {
+	margin: 1%, 1%;
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.button4 {
+	background-color:dodgerblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.15s;
+}
+
+.button4:hover {
+	background-color: blue;
+}
+
+.button_table{
+	width: 75%;
+	margin-top: 4%;
+	margin-left: 12%;
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+	float: center;
+}
+
+.button_table3{
+	width: 75%;
+	margin-top: 4%;
+	margin-left: 12%;
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+	float: center;
+}
+
+.button_table2{
+	width: 75%;
+	margin-top: 4%;
+	margin-left: 12%;
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+	float: center;
+}
+
+.button_add {
+	width: 12%;
+	margin-top: 4%;
+	top: 78%;
+	left: 50%;
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+	float: left;
+	position: absolute;
+}
+
+.button_edit {
+	width: 12%;
+	margin-top: 4%;
+	top: 78%;
+	left: 40%;
+	background-color: blue;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1vw;
+	cursor: pointer;
+	border-radius: 8px;
+	float: left;
+	position: absolute;
+}
+

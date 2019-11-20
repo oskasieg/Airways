@@ -1,0 +1,5 @@
+$_SESSION['typ'] - rodzaj konta użytkownika
+$_SESSION['login'] - login użytkownika, jest on również nazwą firmy przewoźnika
+$_SESSION['przewoznik'] - zmienna przechowuje czy zalogowany uzytkownik to przewoznik
+$_SESSION['flight'] - przechowuje nazwe lotu
+
